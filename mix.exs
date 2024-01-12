@@ -3,15 +3,15 @@ defmodule Xpeg.MixProject do
 
   def project do
     [
-      app: :xpeg,
-      version: "0.8.1",
+      app: :xpeg2,
+      version: "0.9.0",
       description: "Native Elixir PEG (Parsing Expression Grammars) string matching library",
       elixir: "~> 1.10",
       start_permanent: Mix.env() == :prod,
       deps: deps(),
       package: [
         licenses: ["MIT"],
-        links: %{"GitHub" => "https://github.com/zevv/xpeg"}
+        links: %{"GitHub" => "https://github.com/mtvch/xpeg2"}
       ],
       docs: [
         extras: ["README.md"],
